@@ -3,6 +3,10 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     defaultConfig {
         applicationId "com.treehouse.funfacts"
         minSdkVersion 15
