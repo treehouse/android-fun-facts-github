@@ -21,7 +21,9 @@ public class ColorWheel {
             "#f092b0", // pink
             "#b7c0c7",  // light gray
             "#8b4513", //bronze color
-            "#ddca8b" // gold color
+            "#ddca8b", // gold color
+            "#aaccdd", //abhi color
+            "#axszss" //bimu color
     };
 
     // Method (abilities: things the object can do)
