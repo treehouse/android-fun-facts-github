@@ -24,6 +24,7 @@ public class ColorWheel {
             "#ddca8b", // gold color
             "#aaccdd", //abhi color
             "#axszss" //bimu color
+            "#aaccdd" //abhi color
     };
 
     // Method (abilities: things the object can do)
