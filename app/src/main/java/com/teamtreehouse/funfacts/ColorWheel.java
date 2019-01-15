@@ -19,19 +19,17 @@ public class ColorWheel {
             "#e0ab18", // mustard
             "#637a91", // dark gray
             "#f092b0", // pink
-            "#b7c0c7"  // light gray
+            "#8b4513"  //bronze
+            "#b7c0c7", // light gray
+            "#ddca8b"   // Gold
     };
 
     // Method (abilities: things the object can do)
     public int getColor() {
-        String color = "";
-
         // Randomly select a fact
         Random randomGenerator = new Random(); // Construct a new Random number generator
         int randomNumber = randomGenerator.nextInt(mColors.length);
-
-        color = mColors[randomNumber];
-        int colorAsInt = Color.parseColor(color);
+        int colorAsInt = Color.parseColor(mColors[randomNumber]);
 
         return colorAsInt;
     }
